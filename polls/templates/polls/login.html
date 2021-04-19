@@ -1,0 +1,15 @@
+{% load crispy_forms_tags %}
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body style="margin-left:40%; background-color:#EEE8AA">
+<h2 style="margin-left:7px; color:#228B22"><b><br>Login</b></h2><br>
+<form method="post">
+
+{% crispy form form.helper %}
+
+</form>
+</body>
+</html>
