@@ -1,26 +1,39 @@
-# Download File
-Download a file and extract it and then open a software(pycharm, sublime, VS code.......)
+# Download Code
 
-# virtual environment
-install virtual environment
+## virtual environment
+### install virtual environment
+```
 $ pip install virtualenvwrapper-win
-
-Create virtual environment
+```
+### Create virtual environment
+```
 $ mkvirtualenv venv
-
-Active VE
+```
+### Active VE
+```
 $ workon venv
+```
 
-# Download Django
+## Download Django
+```
 $ pip install django
+```
 
-# Download Crispy-Form
+## Download Crispy-Form
+```
 $ pip install django-crispy-form
-
+```
 Then 
+```
 $ python manage.py makemigrations
 $ python manage.py migrate
-
-# runserver
+```
+## Start the app
+```
 $ python manage.py runserver
+```
 
+Open browser, <http://localhost:8000>.
+## Stop the app
+
+           Ctrl+C
