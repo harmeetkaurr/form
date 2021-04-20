@@ -9,7 +9,7 @@ Create virtual environment
 $ mkvirtualenv venv
 
 Active VE
-workon venv
+$ workon venv
 
 # Download Django
 $ pip install django
