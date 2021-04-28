@@ -1,18 +1,5 @@
-# Download Code
 
-## virtual environment
-### install virtual environment
-```
-$ pip install virtualenvwrapper-win
-```
-### Create virtual environment
-```
-$ mkvirtualenv venv
-```
-### Active VE
-```
-$ workon venv
-```
+## install virtual environment
 
 ## Download Django
 ```
@@ -21,7 +8,7 @@ $ pip install django
 
 ## Download Crispy-Form
 ```
-$ pip install django-crispy-form
+$ pip install django-crispy-forms
 ```
 Then 
 ```
