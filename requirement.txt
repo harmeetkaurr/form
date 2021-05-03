@@ -1,4 +1,0 @@
-Django==3.2
-python==3.8.6
-django-crispy-forms==1.9
-Pillow==6.2.1
